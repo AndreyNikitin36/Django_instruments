@@ -1,0 +1,5 @@
+venv/
+/venv/
+run.bat
+fill_db.bat
+migrate.bat
