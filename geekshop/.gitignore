@@ -1,8 +1,0 @@
-venv/
-/venv/
-run.bat
-fill_db.bat
-migrate.bat
-/django_2.0/
-/django_2.2/
-/django_3/
