@@ -15,7 +15,7 @@ def login(request):
 
     login_form = ShopUserLoginForm(data=request.POST or None)
     next = request.GET['next'] if 'next' in request.GET.keys() else ''
-    # print('next', next)
+
 
     if request.method == 'POST' and login_form.is_valid():
         username = request.POST['username']
